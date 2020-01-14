@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Jquery Demo</title>
+        <style>
+            div{
+                border: 1px solid black;
+                padding: 10px;
+                margin: 5px;
+            }
+
+            #p1{
+                border:1px solid black;
+
+            }
+            #animation{
+                height:100px;
+                width:100px;
+                background-color: black;
+                color: white;
+                opacity: 0.3;
+            }
+
+            .dynamicClass{
+                background-color: black;
+                color:white;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="test1">Setting Jquery</h1>
+        <button id="btn1">Click here</button>
+
+        <div id="first">
+            <p>This is first paragraph.</p>
+
+            <p>This is second paragraph.</p>
+
+            <p> This is third paragraph.</p>
+        </div>
+
+        <button id="btn2">Para 1</button>
+        <button id="btn3">Para 2</button>
+        <button id="btn4">Para 3</button>
+        <button id="btn5">ALL Paragraphs</button>
+        <button id="btn6">DIV</button>
+
+        <h2>Applying append, After, prepend, before, remove, empty </h2>
+        <button id="append">Append</button>
+        <button id="after">After</button>
+        <button id="prepend">Prepend</button>
+        <button id="before">Before</button>
+        <button id="remove">Remove</button>
+        <button id="empty">Empty</button>
+
+        <div id="second"> 
+            <p id="p2"> This is a <b>New Paragraph</b>. </p>
+        </div>
+
+        <h2>Effects in JQ: Tutorial-41 </h2>
+        <p id="p1">This paragraph will be hidden and revealed on button click.</p>
+        <button id="hide">Hide</button> <button id="show">Show</button>
+
+        <button id="toggle">Toggle</button>
+
+
+        <h2> Animation using JQ </h2>
+        <button id="anim">Animate</button>
+        <div id="animation">
+            Animation
+        </div>
+
+        <h2>DOM manipulation in JQ</h2>
+        <button id="action">Action</button>
+        <div>This is a <b> New paragraph </b> for DOM manipulation.</div>
+
+        <h2>Adding, Removing & Toggling classes</h2>
+        <div id="addStyle">
+            <p>
+                This is a new Paragraph where new class may be applied.
+            </p>
+        </div>
+        <button id="addClass">AddClass</button>
+        <button id="removeClass">RemoveClass</button>
+        <button id="toggleClass">ToggleClass</button>
+
+        
+
+    </body>
+
+    <script src="js/jquery.js"> </script>
+    <script src="JQDemo.js"> </script>
+</html>
