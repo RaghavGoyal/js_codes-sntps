@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS String methods:</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	var text = "cat, bat, sat, fat";
+	var pattern = /.at/g;    //same as pattern.exec(text)
+	var matches = text.match(pattern); 
+	console.log(matches.index);     //0
+	console.log(matches); //”cat” 
+	console.log(pattern.lastIndex); //0
+
+
+
+	var uri="https://www.springernature.com/login"
+
+	var encoded=encodeURI(uri);
+	var encodedComponent=encodeURIComponent(uri);
+
+	console.log(decodeURIComponent(encoded));
+	console.log(decodeURI(encodedComponent));
+</script>
+</body>
+</html>
